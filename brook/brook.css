@@ -2,14 +2,6 @@
 body {
 	background-color: #4a2d74;
 	color: #ffe820;
-	margin: 0 auto;
-	width: 1366px;
-	height: 768px;
-}
-#banner {
-	margin: 50px 67px 0px;
-	width: 1232px;
-	height: 150px;
 }
 .button {
 	background-color: #312247;
@@ -33,13 +25,9 @@ body {
 .title {
 	font-family: 'Alef Hebrew', serif;
 	background-color: #312247;
-	margin: 40px auto 0 87px;
 	letter-spacing: 36px;
 	text-align: center;
 	font-size: 5em;
-	height: 100px;
-	padding: 0px;
-	width: 738px;
 }
 .clear {
 	clear: both;

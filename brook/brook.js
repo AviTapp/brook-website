@@ -6,7 +6,7 @@ var main = function(){
 
 	$('#weeklyVid').click(function(){
 		$('.weeklyVidPop').slideDown(900);
-		$('.weeklyVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/116934944' width='100%' height='375' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
+		$('.weeklyVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117627853' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 		$('#hideBG').fadeIn(1000);
 	});
 
@@ -17,37 +17,37 @@ var main = function(){
 
 	$('#YBWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/ZSAyiASk' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104649' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 
 	$('#SBWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/W6Rmfpvv' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104649' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 
 	$('#TPWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/M80pH6Du' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104650' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 	
 	$('#ATWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/KThKGhqP' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104648' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 	
 	$('#CMWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/f2YVNT9D' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104649' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 	
 	$('#RFWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='https://db.tt/zP4pjGjh' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104649' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 	
 	$('#RSWed').click(function(){
 		$('.specialVidPop').children('.video').text("");
-		$('.specialVidPop').children('.video').append("<video controls><source src='#' type='video/mp4'><p>Video is not visible, most likely your browser does not support HTML5 video</p></video>");
+		$('.specialVidPop').children('.video').append("<iframe src='http://player.vimeo.com/video/117104649' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>");
 	});
 
 	$('#archiveVid').click(function(){

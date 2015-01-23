@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body {
+    background-color: #4a2d74;
+    color: #ffe820;
+}
+#hideBG {
+	background-color: #202024;
+	position: fixed;
+	display: none;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	left: 0;
+	top: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.button {
+	background-color: #312247;
+	color: inherit;
+        height: 100px;
+        margin-top: 1%;
+}
+.title {
+    font-family: 'Alef Hebrew',serif;
+    font-size: 5em;
+    text-align: center;
+    letter-spacing: 36px;
+    background-color: #312247;
+}
+.weeklyVidPop, .specialVidPop {
+	background-color: #ab9f38;
+	border: 3px inset #312247;
+	position: absolute;
+	display: none;
+	z-index: 5;
+	left: 20%;
+	top: 0px;
+}
+.archiveVidPop {
+	background-color: #ab9f38;
+	border: 3px inset #312247;
+	position: absolute;
+	color: #312247;
+	display: none;
+	z-index: 5;
+	left: 20%;
+	top: 0px;
+}
+.archives {
+	text-decoration: none;
+	list-style-type: none;
+}
