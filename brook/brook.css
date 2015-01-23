@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+body {
+	background-color: #4a2d74;
+	color: #ffe820;
+	margin: 0 auto;
+	width: 1366px;
+	height: 768px;
+}
+#banner {
+	margin: 50px 67px 0px;
+	width: 1232px;
+	height: 150px;
+}
+.button {
+	background-color: #312247;
+	margin: 50px 10px 0px;
+	color: inherit;
+	height: 100px;
+	width: 435px;
+	float: left;
+}
+#specialVid {
+	clear: both;
+	margin-left: 235px;
+	margin-top: 25px;
+}
+.calendar {
+	margin-top: -125px;
+	overflow: auto;
+	height: 300px;
+	width: 375px;
+}
+.title {
+	font-family: 'Alef Hebrew', serif;
+	background-color: #312247;
+	margin: 40px auto 0 87px;
+	letter-spacing: 36px;
+	text-align: center;
+	font-size: 5em;
+	height: 100px;
+	padding: 0px;
+	width: 738px;
+}
+.clear {
+	clear: both;
+}
+p {
+	display: none;
+	margin: 0px;
+	padding: 10px;
+}
+header {
+	background-color: white;
+}
+h3 {
+	background-color: #246369;
+	padding-left: 10px;
+	margin: 10px 0 0;
+}
+.weeklyVidPop, .specialVidPop {
+	background-color: #ab9f38;
+	border: 3px inset #312247;
+	position: absolute;
+	height: 556px;
+	display: none;
+	width: 760px;
+	z-index: 5;
+	left: 20%;
+	top: 0px;
+}
+.specialVidPop button {
+	margin: 1% 2%;
+}
+.archiveVidPop {
+	background-color: #ab9f38;
+	border: 3px inset #312247;
+	position: absolute;
+	color: #312247;
+	height: 556px;
+	display: none;
+	width: 500px;
+	z-index: 5;
+	left: 20%;
+	top: 0px;
+}
+.close {
+	width: 25px;
+	height: 25px;
+	top: 5px;
+	right: 5px;
+	position: absolute;
+}
+video {
+	position: absolute;
+	height: 476px;
+	width: 720px;
+	margin: 0px;
+	left: 20px;
+	top: 40px;
+}
+.archives {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0 0 0 30px;
+	position: absolute;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.right {
+	text-align: right;
+}
+#hideBG {
+	background-color: #202024;
+	position: fixed;
+	display: none;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	left: 0;
+	top: 0;
+}
